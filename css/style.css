@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    background: #191919;
+    font-family: "DM Sans", sans-serif;
+}
+#header{
+    padding: 20px 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav a {
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin: 0 20px;
+    transition: .4s;
+}
+.header-nav a:hover{
+    color: #336705;
+}
+
+#hero{
+    padding: 80px 0;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-title h1{
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    padding-bottom: 80px;
+}
+.hero-title h4{
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 15px 0;
+}
+.hero-title img{
+    margin-left: -10px;
+    padding: 0 12px;
+}
+
+#blocks{
+    padding: 80px 0;
+}
+.blocks-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blocks-title h1{
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+    padding-bottom: 80px;
+}
+.blocks-title button{
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    background: #4ead98;
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+}
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 60px 0;
+}
+.block-title h4{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.block-title h3{
+    font-weight: 400;
+    font-size: 17px;
+    color: #118DA8;
+    margin-bottom: 10px ;
+}
+.block-title h1{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+.block-title p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+}
+.block-title button{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #4ead98;
+    margin-top: 20px ;
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+}
+--
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.center img{
+    margin-top: 50px;
+}
+.center-title{
+    margin-left: 450px;
+    margin-top: -410px;
+
+
+}
+.center-title h4{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.center-title h3{
+    font-weight: 400;
+    font-size: 17px;
+    color: #118DA8;
+    margin-bottom: 10px ;
+}
+.center-title h1{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+.center-title p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+
+}
+.center-title button{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #4ead98;
+    margin-top: 20px ;
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+}
+--
+.block-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.block-right img{
+    margin-top: 50px;
+}
+.block-right-title{
+    margin-left: 450px;
+    margin-top: -410px;
+
+
+}
+.block-right h4{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.block-right h3{
+    font-weight: 400;
+    font-size: 17px;
+    color: #118DA8;
+    margin-bottom: 10px ;
+}
+.block-right h1{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+.block-right p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+
+}
+.block-right button{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #4ead98;
+    margin-top: 20px ;
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+}
